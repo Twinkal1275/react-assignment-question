@@ -1,0 +1,45 @@
+.list
+{
+  width: 60%;
+  height: 350px;
+  background-color: chartreuse;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+.list h1
+{
+  text-align: center;
+  padding-top: 20px !important;
+}
+ul
+{
+  list-style-type: none;
+  width: 100% !important;
+} 
+li
+{
+  text-decoration: none;
+  width: 100% !important;
+  display: flex;
+  margin-left: 80px;
+}
+
+li a
+{
+  text-decoration: none;
+  color: black;
+  width: 60%;
+  background-color: white;
+  padding: 10px 30px;
+  font-size: 20px;
+  margin-left: 10px;
+}
+input
+{
+  width: 35px;
+  height: 35px;
+  margin-top: 10px;
+  margin-left: -10px;
+  border-radius: 50px !important;
+  clip-path: circle(40% at 50% 50%);
+}
